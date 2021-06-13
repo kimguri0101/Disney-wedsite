@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>disney</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<style>
+	 body{
+	 	font-family: 'Noto Sans KR', sans-serif;
+	 	margin: 0;
+	 	padding: 0;
+    color:#FAFAFA;
+    box-sizing: border-box;
+	 }
+	 .insideout-mainimage{
+	 	background-color:#191F59;
+	 	width: 100%;
+	 	height: 2000px;
+	 	text-align: center;
+	 }
+	 .insideout-mainimage .main-title{
+	 	display: inline-block;
+	 	font-size: 120px;
+	 	font-weight: bold;
+	 	margin-top: 100px;
+	 }
+	 .title-info{
+	 	font-size: 16px;
+	 	display: inline-block;
+	 }
+	 .poster{
+	 	margin-top: 40px;
+	 	margin-left: auto;
+	 	margin-right: auto;
+	 	display: block;
+	 }
+	 .title{
+	 	font-size: 31.25px;
+	 	color: #FAFAFA;
+	 	font-weight: bold;
+	 	margin-top: 240px;
+	 	margin-bottom: 48px;
+	 }
+	 .stroy{
+	 	font-size: 12.8px;
+	 	color: #FAFAFA;
+	 	line-height: 180%;
+	 	width: 628px;
+	 	font-weight: regular;
+
+	 	display: inline-block;
+	 }
+	 .container-number{
+	 	text-align: center;
+	 	margin-right: auto;
+	 	margin-left: auto;
+	 }
+	 .number{
+	 	margin: 120px 60px 160px 60px;
+	 	display: inline-block;
+	 	text-align: center;
+
+	 }
+	 .number-info h4{
+	 	color: #FAFAFA;
+	 	font-size: 25px;
+	 	font-weight: bold;
+	 }
+	 .sub-name{
+       font-size: 10.24px;
+	 	color: #FAFAFA;
+	 	padding-left: 4px;
+
+	 }
+	 .number-name .number-info h1{
+	 	font-size: 12.8px;
+	 	color: #FAFAFA;
+	 }
+    .first{
+    	width: 100%;
+    	height: 600px;
+    	background-color:#219FF9;
+    	color:  #FAFAFA;
+    	text-align: right;
+    	
+    }
+    .charac-info{
+    	padding-top: 100px;
+    }
+    .first .charac-image{
+    	float: right;
+    	position: relative;
+    	right: 120px;
+    	bottom:280px;
+    	margin-left: 120px;
+    	display: inline;
+    }
+    h3{
+    	font-size: 70px;
+    	font-weight: bold;
+    	margin: 0;
+    }
+    .voice{
+    	font-size: 20px;
+    	font-weight: bold;
+    	
+    }
+    .about{
+    	font-size: 16px;
+    	line-height: 180%;
+    	width: 580px;
+    	display: inline-block;
+    	margin: 4px 0;
+    	padding: 0;
+    }
+    .second{
+    	background-color: #2D6D29;
+    	width: 100%;
+    	height: 596px;
+    	color:  #FAFAFA;
+    	text-align: left;
+    	position: relative;
+    	top: 160px;
+    }
+    .second .charac-image{
+    	float: left;
+    	position: relative;
+    	top: 640px;
+    	right: 640px;
+    }
+    .second .charac-info{
+    	padding-top: 100px;
+    	margin-left: 520px;
+    	position: absolute;
+    	top: -860px;
+    	left: 120px;
+
+    }
+    .second h3{
+    	font-size: 70px;
+    	font-weight: bold;
+    }
+    .second .voice{
+    	font-size: 20px;
+    	font-weight: bold;
+    	
+    }
+    .second .about{
+    	font-size: 16px;
+    	line-height: 180%;
+    	width: 580px;
+    	display: inline-block;
+    	margin: 4px 0;
+    	padding: 0;
+    }
+   
+
+    .third{
+    	position: relative;
+    	top: 588px;
+    	width: 100%;
+    	height: 600px;
+    	background-color:#1D1841;
+    	color:  #FAFAFA;
+    	text-align: right;
+
+    }
+    .third .charac-image{
+    	float: right;
+    	position: absolute;
+    	right: -500px;
+    	top:-240px;
+    	margin-left: 120px;
+    	display: inline;
+    }
+    .third .charac-info{
+    	padding-top: 100px;
+    	position: absolute;
+    	left: -210px;
+    	top: 40px;
+    }
+    .third .voice{
+    	font-size: 20px;
+    	font-weight: bold;
+    	
+    }
+    .third .about{
+    	font-size: 16px;
+    	line-height: 180%;
+    	width: 580px;
+    	display: inline-block;
+    	margin: 4px 0;
+    	padding: 0;
+    }
+
+
+     .Fourth{
+    	background-color: #8A1413;
+    	width: 100%;
+    	height: 596px;
+    	color:  #FAFAFA;
+    	text-align: left;
+    	position: relative;
+    	top: 600px;
+    }
+    .Fourth .charac-image{
+    	float: left;
+    	position: relative;
+    	top: 560px;
+    	right: 700px;
+    }
+    .Fourth .charac-info{
+    	padding-top: 100px;
+    	margin-left: 520px;
+    	position: absolute;
+    	top: -840px;
+    	left: 180px;
+
+    }
+    .Fourth h3{
+    	font-size: 70px;
+    	font-weight: bold;
+    }
+    .Fourth .voice{
+    	font-size: 20px;
+    	font-weight: bold;
+    	
+    }
+    .Fourth .about{
+    	font-size: 16px;
+    	line-height: 180%;
+    	width: 580px;
+    	display: inline-block;
+    	margin: 4px 0;
+    	padding: 0;
+    }
+
+
+    .Fifth{
+    	position: relative;
+    	top: 588px;
+    	width: 100%;
+    	height: 600px;
+    	background-color:#0E3578;
+    	color:  #FAFAFA;
+    	text-align: right;
+
+    }
+    .Fifth .charac-image{
+    	float: right;
+    	position: absolute;
+    	right: -500px;
+    	top:-150px;
+    	margin-left: 120px;
+    	display: inline;
+    }
+    .Fifth .charac-info{
+    	padding-top: 100px;
+    	position: absolute;
+    	left: -210px;
+    	top: 40px;
+    }
+    .Fifth .voice{
+    	font-size: 20px;
+    	font-weight: bold;
+    	
+    }
+    .Fifth .about{
+    	font-size: 16px;
+    	line-height: 180%;
+    	width: 580px;
+    	display: inline-block;
+    	margin: 4px 0;
+    	padding: 0;
+    }
+
+
+    .insideout-photo{
+        height: 910px;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        top: 380px;
+        text-align: center;
+        vertical-align: middle;
+
+       
+
+    }
+    .insideout-photo .title{
+    	font-size: 31.25px;
+    	color: #1860C9;
+      font-weight: bold;
+    	margin: 100px auto 60px auto;
+     }
+    .image{
+    	width: 490px;
+    	 float: left;
+    }
+    .image img{
+        padding: 4px;
+    }
+    .photo-image{
+    	height: 480px;
+    	width: 960px;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    .last{
+    	position: relative;
+    	top:6px;
+    }
+    .staff{
+    	width: 100%;
+    	height: 400px;
+    	background-color: #191F59;
+    	color: #FAFAFA;
+    	text-align: center;
+    	position: relative;
+    	top: 60px;
+    }
+    .staff h4{
+    	font-size: 14.22px;
+    	font-weight: lighter;
+    }
+    .staff .number-name{
+    	font-size: 16px;
+    	margin-top: 0;
+    }
+    .staff .container-number{
+    	height: 100px;
+    }
+    .staff .number{
+    	margin: 10px 40px 10px 40px;
+    }
+    .staff .title{
+    	font-size: 31.25px;
+    	padding-top: 100px;
+      font-weight: bold;
+    }
+
+
+
+
+
+
+
+
+
+	 </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/6QTNjsXG/vuswlq.png" width="80px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     <ul class="nav justify-content-center">
+       <li class="nav-item">
+         <div class="w3-dropdown-hover">
+               <button class="w3-button nav-link movie">Movie</button>
+               <div class="w3-dropdown-content w3-bar-block w3-border">
+                 <a href="#" class="w3-bar-item w3-button">INSIDE OUT</a>
+                 <a href="#" class="w3-bar-item w3-button">UP</a>
+                 <a href="#" class="w3-bar-item w3-button">COCO</a>
+               </div>
+             </div>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link active" aria-current="page" href="#">Active</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Link</a>
+       </li>
+     </ul>
+           <form class="d-flex">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+           </form>
+       </div>
+</nav>
+
+<div class="insideout-mainimage">
+ <div class="main-title">INSIDE OUT</div><div class="helper"></div>
+ <div class="title-info">진짜 나를 만날 시간</div>
+ <img class="poster" src="https://i.postimg.cc/d0L9FQQq/pngegg-13.png" width="800px">
+  <div class="info">
+  	<div class="title">Stroy</div>
+     <div class="stroy">
+     	모든 사람의 머릿속에 존재하는 감정 컨트롤 본부 그곳에서 불철주야 열심히 일하는 기쁨, 슬
+픔, 버럭, 까칠, 소심 다섯 감정들. 이사 후 새로운 환경에 적응해야 하는 ‘라일리’를 위해 그 어
+느 때 보다 바쁘게 감정의 신호를 보내지만 우연한 실수로 ‘기쁨’과 ‘슬픔’이 본부를 이탈하게
+ 되자 '라일리’의 마음 속에 큰 변화가 찾아온다. '라일리'가 예전의 모습을 되찾기 위해서는 
+‘기쁨’과 ‘슬픔’이 본부로 돌아가야만 한다! 그러나 엄청난 기억들이 저장되어 있는 머릿속 세
+계에서 본부까지 가는 길은 험난하기만 한데… 과연, ‘라일리’는 다시 행복해질 수 있을까? 지
+금 당신의 머릿속에서 벌어지는 놀라운 일! 하루에도 몇번씩 변하는 감정의 비밀이 밝혀진다!
+     </div>
+   <div class="container-number"> 
+    <div class="number"> 
+     <div class="number-info">
+     	<h4>9.05</h4>
+     </div>
+     <span class="number-name">평점</span>
+    </div>
+     <div class="number"> 
+     <div class="number-info">
+     	<h4>496<span class="sub-name">만명</span></h4>
+     </div>
+     <span class="number-name">관객수</span>
+    </div>
+     <div class="number"> 
+     <div class="number-info">
+     	<h4>9</h4>
+     </div>
+     <span class="number-name">수상</span>
+    </div>
+    <div class="number"> 
+     <div class="number-info">
+     	<h4>102<span class="sub-name">분</span></h4>
+     </div>
+     <span class="number-name">러닝타임</span>
+    </div>
+   </div>
+</div>
+
+<div class="first">
+	<div class="charac-info">
+		<img class="charac-image" src="https://i.postimg.cc/J4pZgqBy/pngegg-12.png" width="510px">
+		<h3>기쁨이</h3> 
+		<p class="about">
+			<span class="voice">성우:에이미 포엘러</span><br><br>
+			직업: 라일리의 기쁨
+            기쁨은 그녀의 이름에서 알 수 있듯이 행복과 풍요의 바로 그 본질이며, 이와 같이 그녀
+            는 사물의 밝은 면을 보는 것을 좋아한다. 그녀는 모든 감정들 중에서 가장 나이가 많다
+            . 그녀는 다른 어떤 감정도 라일리에 영향을 미치기를 원하지 않을 정도로 라일리의 행
+            복을 중시한다. 그녀는 라일리가 슬퍼하는 것을 전혀 원하지 않는다. 심지어 그녀가 슬
+            퍼해야 할 때에도 말이다. 이 때문에 조이는 다섯 가지 감정 중에서 가장 유연하지 못하
+            고 가장 지배적이다.
+        </p>
+    </div>
+    <div class="second">
+	<div class="charac-info">
+		<img class="charac-image" src="https://i.postimg.cc/JhWGT6QC/pngegg-7.png" width="560px">
+		 <h3>까칠이</h3> 
+		<p class="about">
+			<span class="voice">성우: 민디 캘링</span><br><br>
+			직업: 라일리의 까칠함, 경멸
+역할로는 생리적 거부, 까다로움, 짜증과 경멸이 있다. 기쁨의 설명에 따르면 육체적,
+ 사회적으로 병드는 것을 방지하는 역할이며, 한마디로 정의하자면 라일리의 선호나 
+취향에 가장 깊게 관여한다. 브로콜리를 싫어하는 식성이라던지 라일리가 좋아하거나
+ 싫어하는 것에 관한 반응에 가장 많이 개입한다.
+
+        </p>
+    </div>
+    <div class="third">
+	<div class="charac-info">
+		<img class="charac-image" src="https://i.postimg.cc/J4bppQSV/pngegg-10.png" width="510px">
+		<h3>소심이</h3> 
+		<p class="about">
+			<span class="voice">성우: 빌 헤이더</span><br><br>
+			직업: 라일리의 두려움
+역할은 놀라움, 두려움, 불안. 반면 다칠 일이 없는 꿈 보는 일을 할 때는 당당하게 행동
+한다. 부정적이고 약해보이는 감정이지만,로서의 역할만 하는 듯 하지만 사실 제일 현
+실적인 방법을 제시하는 캐릭터다.
+
+
+        </p>
+    </div>
+     <div class="Fourth">
+	<div class="charac-info">
+		<img class="charac-image" src="https://i.postimg.cc/GmL6YNtS/pngegg-9.png" width="660px">
+		 <h3>버럭이</h3> 
+		<p class="about">
+			<span class="voice">성우:루이스 블랙</span><br><br>
+			직업: 라일리의 분노
+투덜투덜, 폭발성, 냉소성, 다혈질, 성급함, 고집이 셈, 짜증 등 이 모든 단어들
+은 버럭이의 성격을 표현하느 말들이다. 부정적인 감정들 뿐인것 같지만, 공평을 중요
+시하는 성격도 가지고 있어 항상 라일리의 삶에서 모든 것을 공정하게 유지하기 위해
+존재하는 감정이다. 라일리의 용기에도 도움을 주는 감정이기도 하다.
+        </p>
+    </div>
+    <div class="Fifth">
+	<div class="charac-info">
+		<img class="charac-image" src="https://i.postimg.cc/Dy8XZfdC/pngegg-8.png" width="510px">
+		<h3>슬픔이</h3> 
+		<p class="about">
+			<span class="voice">성우: 필리스 스미스</span><br><br>
+			직업: 라일리의 슬픔
+슬픔은 말 그대로 슬픔과 우울의 정의와 존재다. 그녀는 항상 부정적이고 비관적인 성
+격에도 불구하고 남에 대한 배려와 동정심이 매우 강하며, 빙봉이 마차를 잃어버린 것
+에 대해 슬퍼할 때, 그를 동정하고 그의 진심을 말하게 하여 그를 훨씬 더 행복하게 만들
+었다. 
+ 
+        </p>
+    </div>
+</div>
+
+<div class="insideout-photo">
+ <div class="photo-image">
+ <div class="title">Photo</div>
+ <div class="image">
+    <img src="https://i.postimg.cc/8c4kBYQk/Intersect.png" width="236px">
+    <img src="https://i.postimg.cc/MpN6DR4B/Intersect-2x.png" width="236px">
+    <img src="https://i.postimg.cc/02N91c1m/Exclude.png" width="236px">
+    <img src="https://i.postimg.cc/9M1sxHMk/Intersect-2x.png" width="236px">
+ </div>
+ <img class="last" src="https://i.postimg.cc/WzhYXDxD/MMMM.png" width="460px">
+</div>
+
+</div>
+
+<div class="staff">
+  <div class="title">Production Team</div>
+  <div class="container-number"> 
+    <div class="number"> 
+     <div class="number-info">
+     	<h4>감독&각본</h4>
+     </div>
+     <span class="number-name">피트 닥터</span>
+    </div>
+     <div class="number"> 
+     <div class="number-info">
+     	<h4>편집</h4>
+     </div>
+     <span class="number-name">케빈 놀팅</span>
+    </div>
+     <div class="number"> 
+     <div class="number-info">
+     	<h4>음악</h4>
+     </div>
+     <span class="number-name">마이클 지아치노</span>
+    </div>
+    <div class="number"> 
+     <div class="number-info">
+     	<h4>제작</h4>
+     </div>
+     <span class="number-name">조너스 리베라</span>
+    </div>
+   </div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</html>
